@@ -1,0 +1,56 @@
+main: com.jtrent238.superbans.Main
+name: SuperBans
+version: 1.0.0.0-SNAPSHOT
+author: jtrent238
+description: Ban players for good!
+commands:
+  test:
+    description: A Test command
+    usage: /test
+    permission: superbans.test
+    permission-message: You don't have the superbans.test permission.
+  sbinfo:
+    description: §4§lSuperBans §rInformation
+    usage: /sbinfo
+    permission: superbans.info
+    permission-message: You don't have the superbans.info permission.
+  sbban:
+    description: Ban a player.
+    usage: /sb ban [player] [reason]
+    permission: superbans.ban
+    permission-message: §4You don't have the superbans.ban permission.
+  sbmute:
+    description: Mute a player.
+    usage: /sb mute [player]
+    permission: superbans.mute
+    permission-message: §4You don't have the superbans.mute permission.
+  sbtempmute:
+    description: TempMute a player.
+    usage: /sb tempmute [player] [reason] [time]
+    permission: superbans.tempmute
+    permission-message: §4You don't have the superbans.tempmute permission.
+  sbkick:
+    description: Kick a player.
+    usage: /sb kick [player] [reason]
+    permission: superbans.kick
+    permission-message: §4You don't have the superbans.kick permission.
+  sbtempban:
+    description: Tempban a player.
+    usage: /sb tempban [player] [reason] [time]
+    permission: superbans.tempban
+    permission-message: §4You don't have the superbans.tempban permission.
+  sbjail:
+    description: Jail a player.
+    usage: /sb jail [player]
+    permission: superbans.jail
+    permission-message: §4You don't have the superbans.jail permission.
+  sbfreeze:
+    description: Freeze a player in their spot.
+    usage: /sb freeze [player]
+    permission: superbans.freeze
+    permission-message: §4You don't have the superbans.freeze permission.
+  sbpardon:
+    description: Unban a player.
+    usage: /sb pardon [player]
+    permission: superbans.pardon
+    permission-message: §4You don't have the superbans.pardon permission.
